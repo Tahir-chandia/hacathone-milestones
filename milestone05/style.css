@@ -1,0 +1,89 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(253, 233, 207);
+}
+
+h1{
+    padding: 10px;
+    text-align: center;
+    color: rgb(55, 131, 44)
+
+}
+
+
+form{max-width: 600px;
+margin: auto;
+background-color: #f0f0f4f8;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+padding: 20px;}
+
+fieldset{border: 2px groove rgb(29, 219, 130);
+border-radius: 8px;
+padding: 20px;
+margin-bottom: 20px;
+background-color: rgba(244, 230, 255, 0.753)
+}
+
+#resumeOutput{max-width: 600px;
+margin: auto;
+border: 2px groove rgb(29, 219, 130);
+box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+background-color: rgba(244, 230, 255, 0.753);
+padding: 20px;
+/*Making the resume editable */
+outline: none;
+}
+
+#resumeOutput h2{
+    color: #3498bd;
+}
+
+
+
+
+
+legend{
+    font-weight:bold;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    color: rgb(8, 38, 209);
+}
+
+input,textarea{
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #3498bd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {display: block;
+width: 100%;
+padding: 10px;
+background-color: rgb(46, 146, 239);
+color: black;
+border-radius: 4px;
+cursor: pointer;
+margin-top: 10px;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;}
+
+
+button:hover{
+    background-color:#8266e6;
+}
+
+#download-pdf{
+    
+    margin: auto;
+    width: 17%;
+    height: 20%;
+    color: #000;
+}
